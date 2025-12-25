@@ -1,0 +1,42 @@
+{
+  "input_dim": 5,
+  "scaler_info": {
+    "mean": [
+      8.446332737030412,
+      6.75635062256738,
+      35.81860466805255,
+      -0.005232636105395788,
+      0.00706312652137497
+    ],
+    "scale": [
+      2.761183142648601,
+      11.736598948385216,
+      52.450573819078016,
+      0.5698660538636369,
+      0.8216905767886983
+    ],
+    "n_features_in": 5,
+    "feature_names": [
+      "B0_mT",
+      "f_Hz",
+      "viscosity_cP",
+      "sin(theta_field)",
+      "cos(theta_field)"
+    ]
+  },
+  "feature_names": [
+    "B0_mT",
+    "f_Hz",
+    "viscosity_cP",
+    "sin(theta_field)",
+    "cos(theta_field)"
+  ],
+  "model_architecture": {
+    "hidden_dims": [
+      32,
+      16
+    ],
+    "dropout_rate": 0.3,
+    "emphasize_field": true
+  }
+}
